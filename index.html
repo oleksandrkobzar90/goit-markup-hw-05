@@ -510,6 +510,84 @@
       <!--#endregion Portfolio Section-->
     </main>
 
+    <!--#region Modal-overlay Section-->
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="wraper-close-overlay">
+          <div class="close-overlay">
+            <svg class="icon-close-overlay" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </div>
+        </div>
+        <p class="call-overlay-title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="call-overlay-form">
+          <label class="input-info-form">
+            Name
+            <div class="input-svg-wraper">
+              <svg class="input-form-svg" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input class="input-line" type="text" name="name" />
+            </div>
+          </label>
+
+          <label class="input-info-form">
+            Phone
+            <div class="input-svg-wraper">
+              <svg class="input-form-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input class="input-line" type="tel" name="phone" />
+            </div>
+          </label>
+
+          <label class="input-info-form">
+            Email
+            <div class="input-svg-wraper">
+              <svg class="input-form-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input class="input-line" type="email" name="email" />
+            </div>
+          </label>
+
+          <label class="input-info-form input-comment-form">
+            Comment
+            <div class="input-comment-wraper">
+              <textarea
+                class="comment-input"
+                name="comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </label>
+
+          <div class="agreement-wraper">
+            <label class="privacy-policy-agreement">
+              <input
+                class="policy-checkbox visually-hidden"
+                type="checkbox"
+                name="hobby"
+                value="sports"
+              />
+              <svg class="custom-checkbox-svg" width="10" height="8">
+                <use href="./images/icons.svg#icon-accept"></use>
+              </svg>
+            </label>
+            <p class="policy">
+              I accept the terms and conditions of the
+              <a class="policy-link" href="./index.html">Privacy Policy</a>
+            </p>
+          </div>
+          <button class="btn-send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!--#endregion Modal-overlay Section-->
+
     <!--#region Footer Section-->
     <footer class="footer-section">
       <div class="container footer-container">
@@ -572,6 +650,26 @@
             </li>
           </ul>
         </div>
+        <!-- <div class="subscribe-link"> -->
+        <!-- <p class="subscrabe-titel">Subscribe</p> -->
+        <form class="input-btn-fild">
+          <label class="subscribe-link">
+            Subscribe
+            <input
+              class="input-fild"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="subscribe-btn" type="submit">
+            Subscribe
+            <svg class="subscribe-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+          </button>
+        </form>
+        <!-- </div> -->
       </div>
     </footer>
     <!--#endregion Footer Section-->
