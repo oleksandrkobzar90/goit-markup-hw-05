@@ -572,23 +572,25 @@
             </li>
           </ul>
         </div>
-        <form class="input-btn-fild">
-          <label class="subscribe-link">
-            Subscribe
-            <input
-              class="input-fild"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="subscribe-btn" type="submit">
-            Subscribe
-            <svg class="subscribe-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-Frame-3"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="input-btn-fild">
+          <p class="subscribe-titel">Subscribe</p>
+          <form class="subsribe-form">
+            <label class="subscribe-fild">
+              <input
+                class="input-fild"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!--#endregion Footer Section-->
@@ -651,14 +653,14 @@
           </div>
 
           <div class="agreement-wraper">
+            <input
+              class="policy-checkbox visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
             <label class="privacy-policy-agreement" for="user-privacy">
-              <input
-                class="policy-checkbox visually-hidden"
-                id="user-privacy"
-                type="checkbox"
-                name="user-privacy"
-                value="true"
-              />
               <span class="checkbox-privacy-policy">
                 <svg class="custom-checkbox-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-accept"></use></svg></span
