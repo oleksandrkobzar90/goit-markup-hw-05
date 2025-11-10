@@ -507,6 +507,11 @@ a {
   border-radius: 4px;
 }
 
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+}
+
 .subscribe-svg {
   margin-left: 16px;
   fill: #ffffff;
