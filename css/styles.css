@@ -499,6 +499,7 @@ a {
   justify-content: center;
   align-items: center;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -680,11 +681,11 @@ a {
 }
 
 .checkbox-privacy-policy {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -714,6 +715,7 @@ a {
 .btn-send {
   display: block;
   font-weight: 500;
+  line-height: 1.5;
   color: #ffffff;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
