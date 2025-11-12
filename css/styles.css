@@ -671,13 +671,10 @@ a {
 }
 
 .privacy-policy-agreement {
-  display: flex;
-  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  gap: 8px;
 }
 
 .checkbox-privacy {
@@ -688,6 +685,7 @@ a {
   border-radius: 2px;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
